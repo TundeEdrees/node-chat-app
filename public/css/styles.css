@@ -32,6 +32,7 @@ label {
 }
 
 input {
+    border-radius: 10px;
     border: 1px solid #eeeeee;
     padding: 12px;
     outline:none;
@@ -40,7 +41,8 @@ input {
 button {
     cursor:pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #634319;
+    border-radius: 10px;
     border: none;
     color: white;
     font-size: 16px;
@@ -48,12 +50,12 @@ button {
 }
 
 button:hover {
-    background: #6b47b8;
+    background: #7c5e25;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94;
+    background: #634319;
 }
 
 /* Join Page Styles */
@@ -68,6 +70,7 @@ button:disabled {
 }
 
 .centered-form__box {
+    border-radius: 15px;
     box-shadow: 0px 0px 17px 1px #1D1F26;
     background: #F7F7FA;
     padding: 20px;
@@ -165,7 +168,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background: #3b2b1b;
     padding: 24px;   
 }
 
